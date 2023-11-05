@@ -1,4 +1,9 @@
 
+#precipitation and potential evoperation data from 1900 to 2021 are downloaded from https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.06/cruts.2205201912.v4.06/pet/
+#read the article for introduction of the data: https://www.nature.com/articles/s41597-020-0453-3
+#"Potential Evapotranspiration (PET) is calculated using the Penman-Monteith formula25 explained in26 (p1071–1072). For this we use the CRU TS gridded values of mean temperature, vapour pressure, cloud cover and static (temporally invariant except for the annual cycle) 1961–90 average wind field values (further described in5)"
+#output data files can be found: https://drive.google.com/drive/folders/1bimfTdV94PQqEbWd2FbFLvDaivvx5Xp4?usp=sharing
+
 rm(list=ls())
 ## open the library
 library(tidyverse); library(writexl); library(ggplot2); library(cowplot)
